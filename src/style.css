@@ -1,0 +1,60 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.add-btn {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ff333300;
+    border: 0.5px solid white;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+  
+.input {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 190px;
+    padding: 10px;
+    background-color: #ff333300;
+    border: 0.5px solid white;
+    color: white;
+}
+
+.input::placeholder {
+    color: white;
+}
+  
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 240px;
+}
+  
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: white;
+}
+  
+.delete-btn {
+    background-color: black;
+    margin-left: 10px;
+    color: #ff3333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0.5px solid #ff3333;
+}
